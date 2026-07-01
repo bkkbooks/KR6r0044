@@ -1,0 +1,135 @@
+canonical_identifier: bkk:krp/KR6r0044/v1
+canonical_location: https://kanripo.org/bkk/KR6r0044/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 唐大薦福寺故寺主翻經大德法藏和尚傳
+  identifiers:
+    alt_id:
+    - T50n2054
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T50/T50n2054.xml
+    old_id: T50n2054
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6r0044_000.yaml, hash: 'sha256:1bba6a249befbb387fc5414034a0c27f957fc5bbdb38600c15f10163a48b86d2'}
+  - {seq: 1, filename: KR6r0044_001.yaml, hash: 'sha256:79a238e4105e45883e426988795422e492bb629c7a0755d7401d6c213e7ecbad'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6r0044_000.markers.yaml, hash: 'sha256:633445d541afc84a0cd050df7f745ecd3abc3efa1b0732c2ab36305b4553f999'}
+  - {seq: 1, role: markers, filename: assets/KR6r0044_001.markers.yaml, hash: 'sha256:308fea1443aac7df8ad9239ed9db22853b73865ba1a4a60df94d30a641cac859'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6r0044_T_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 新刊賢首國師碑傳敘
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6r0044_T_000-mulu-2
+    span:
+    - front
+    - 291
+    - 291
+  label: 大唐大薦福寺故大德康藏法師之碑
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6r0044_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 13291
+  label: '唐大薦福寺故寺主翻經大德法
+
+    藏和尚傳'
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6r0044_T_001-mulu-1
+    span:
+    - body
+    - 8887
+    - 8887
+  label: 新刊賢首碑傳正誤
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6r0044_T_001-mulu-2
+    span:
+    - body
+    - 8900
+    - 8900
+  label: 序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6r0044_T_001-mulu-3
+    span:
+    - body
+    - 9163
+    - 9163
+  label: 碑正誤
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6r0044_T_001-mulu-4
+    span:
+    - body
+    - 9333
+    - 9333
+  label: 傳正誤
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6r0044_T_001-mulu-5
+    span:
+    - body
+    - 12029
+    - 12029
+  label: 跋
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6r0044_T_001-mulu-6
+    span:
+    - body
+    - 12550
+    - 12550
+  label: 紹興跋
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6r0044_T_001-mulu-7
+    span:
+    - body
+    - 12805
+    - 12805
+  label: 新羅崔致遠事實
+  type: mulu
+  level: 1
+hash: sha256:dbfe15b25678f17f9f74ede79e937e169d48100c5a47bc4ff44373e34d932b18
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
