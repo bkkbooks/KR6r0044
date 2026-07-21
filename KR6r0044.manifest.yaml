@@ -21,17 +21,17 @@ editions:
 - short: T
 assets:
   parts:
-  - {seq: 0, filename: KR6r0044_000.yaml, hash: 'sha256:30e2fa7211ffe6e80e485c57a3dd44e72a4469dad183ea28a1b50b74b00c5666'}
+  - {seq: 0, filename: KR6r0044_000.yaml, hash: 'sha256:a2e198117928a61f73a7bcf4417bfdb2322d297e388b4ec9c54bbd7005cb558d'}
   - {seq: 1, filename: KR6r0044_001.yaml, hash: 'sha256:4edc3b0d1dcc6b057dbe41db197f53b0ef2af51c2cea73670219ca824ba4c97f'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6r0044_000.markers.yaml, hash: 'sha256:9b317d73c6aa40aef2af163d2fd82ad14838d0bcc0daf82370281b2edd9e4f90'}
+  - {seq: 0, role: markers, filename: assets/KR6r0044_000.markers.yaml, hash: 'sha256:c1fd9aa3c8093c09a75260dfc5519feef90f71982c4228159d90de8e876adec7'}
   - {seq: 1, role: markers, filename: assets/KR6r0044_001.markers.yaml, hash: 'sha256:1276da302f56dabedabbe4cbfa389dfce357fe0f311056f120655396489b1bf8'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6r0044_T_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: 新刊賢首國師碑傳敘
@@ -41,7 +41,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6r0044_T_000-mulu-2
     span:
-    - front
+    - body
     - 291
     - 291
   label: 大唐大薦福寺故大德康藏法師之碑
@@ -129,7 +129,7 @@ table_of_contents:
   label: 新羅崔致遠事實
   type: mulu
   level: 1
-hash: sha256:981d3484724f6fae278640ad479247ea42e6a6ae835e90adcafb1a072220ce11
+hash: sha256:0715dc3711bc848cfb9a5dd8a90f3094608076690c3368a1d613d0814245b066
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
